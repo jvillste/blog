@@ -1,0 +1,212 @@
+(:meeting (** :edn { :date { :year 2014
+                             :month 4
+                             :day 6}
+                     :title "Sirun eurovaalityöryhmän kokous"
+                     :people { :sari "Sari Järveläinen"
+                               :eine "Eine Kauppinen"
+                               :pirkko "Pirkko Tarvainen"
+                               :anna "Anna Hurmalainen"
+                               :markku "Markku Gröhndahl"
+                               :paavo "Paavo Kauppinen"
+                               :siru "Sirpa Kauppinen"
+                               :jukka "Jukka Villstedt" }} **)
+         
+(? Miten voimme hankkia varoja?
+   (! Siru ajatteli pyytää rahaa henkilökohtaisesti puhelimella tai sähköpostilla)
+   (? Miksei Vantaan vihreät tue Sirua lainkaan?
+      (! Päätös kuuluu hallitukselle)
+      (+ Rahatilanne on hyvä)
+      (+ Eurooppapäivän piknikkiä varten on tarkoitus laittaa ilmoitus Vantaan Sanomiin))
+   (! Postituslistalta voisi pyytää 20 euroa)
+   (!! Myymme Sirun taidejulistetta
+      (:ap :anna Anna valitsee Sirun Sivuilta kissataulun, josta juliste tehdään)
+      (? Paljonko painatus maksaa?
+         (! 20 euroa + 0.45 per A3 koon juliste))
+      (? Miten myydään?
+         (! Vihreiden verkkokaupassa
+            (+ Ei ilmeisesti maksa mitään)
+            (- Vaikkea löytää verkkokaupasta
+              (- laitetaan linkki verkkokauppaan sirun sivuille))))
+      (+ Julisteen myyminen on laillista ja verotonta))
+   (:ap :all Levittäkää kaikki linkkiä Sirun lahjoitussivulle)
+   (! Puolue antoi 2000, mutta se on jo käytetty mm. yhteislehteen)
+   (! Pitää kertoa kuinka paljon lahjoituksia on tullut ja kuinka paljon puuttuu
+      (:ap :siru Siru laittaa tämän tiedon sivuille))
+   (? Miten muut ovat keränneet rahaa?
+      (! Jotkin ovat saaneet jo 3000 euroa)
+      (! Facebookissa mainos jossa pyydetään lahjoitusta)
+      (! Käyntikortti jossa pyydetään lahjoitusta)))
+
+(? Miten mainostetaan?
+   (! Vihreiden yhteismainos hesariin
+      (! Maksaa 500 euroa)
+      (+ Tässä on pakko olla mukana))
+   (! Twitterissä
+      (+ Vihreille sopiva media koska siellä on nuoria hyvin koulutettuja)
+      (! Siru on yrittänyt laittaa kaksi tweettiä päivässä)
+      (:ap :jukka Jukka siirtää Twitter ja Facebook linkit sivujen ylälaitaan))
+   (! Kuva ratkaisee monella)
+   (! Henkilökohtainen suositus vierallekkin ihmiselle saattaa ratkaista)
+   (! Ääniä tulee aina paremmin sieltä minne mainosta on jaettu)
+   (! Tuomiopäivän juliste
+      (! Taitto maksaa 300 euroa)
+      (? Miten tähän saadaan rahoitusta
+         (! Raakaversio nettiin ja rahoituspyyntö "Jos saan rahoitusta niin teen tästä paremman"
+            (:ap :jukka "Jukka Laittaa nettiin sirun kuvan, josta puuttuu tausta. Otsikoksi \"Lahjoita sirulle tausta """)))
+      (! Tästä voisi tehdä myös videon)
+      (? Miten levitetään?
+         (! Otaniemessä)
+         (! Julisteseinillä kaupungilla))
+      (! Tuomiopäivän julisteesta "Some pulssi", eli monen ihmisen yhtäaikainen asian maininta somessa))
+   (! Kirje Hämeenkylään ja Päkinärinteeseen
+      (! Lauran ei tarvitse koordinoida tätä)
+      (! Vastuu omasta kannasta, pitää äänestää kuten vaalikoneissa
+         (! Puoluekuri)
+         (! Kouluasiassa monet äänestivät omaa vaalikonekantaa vastaan))
+      (! :ap :anna Anna voi olla mukana kirjottamassa Sirun kanssa)
+      (? Kuka jakaa?
+         (! Sirpa Annala)
+         (! Lasse))
+      (? Millainen formaatti?
+         (! Kaksipuolinen A4))
+      (? Mitä asioita tähän laitetaan?
+         (! Tytäryhtiöiden avoimuus)
+         (! Budjettivalmistelu
+            (! Budjetin valmistelu kokonaisuutena))
+         (! Mielivaltaiset puistojen pakkolunastukset rakennustonteiksi)
+         (! Uuden koulutontin kaavoitus
+            (- Voi jakaa mielipiteitä))
+         (! Homekoulut)))
+   (! Viiri polkupyörään
+      (:ap :siru Siru kysyy tämän teettämistä Villeltä)
+      (! Näitä tehtäisiin noin 10 kappaletta)
+      (+ Eduskuntavaaleissa sirun tandemissa ollut laminoitu viiri oli tosi näkyvä)))
+
+(? Tulevia tapahtumia
+   (! 14.5. - 20.5. Ennakkoäänestys)
+   (! 12.4. Vavin kokous kello 12.00 Koivukylässä)
+   (! 25.4. tulee vaalinumerot)
+   (! 30.4. - 1.5. Vappumarkkinat Myyrmäessä
+      (:ap :sari Sari ottaa Jarkkoon yhteyttä)
+      (:ap :eine Eine on valmis tulemaan teltalle)
+      (:ap :markku Markku voi olla pari tuntia paikalla vappuaattona 12 asti)
+      (:ap :siru Siru pääsee paikalle)
+      (:ap :sari Sari pääsee paikalle)
+      (! Teltan voi jättää vaksin kopille Myyrmäkitaloon
+         (:ap :sari Sari kysyy vahtimestarilta luvan))
+      (! kannattaa olla vain aamulla 10-12
+         (! Teltta pitäisi saada jo kahdeksalta paikalle paikan varaamiseksi))
+      (- Vaikea saada ihmisiä paikalle vappuna
+         (+ Vappuaatto on työpäivä))
+      (- Vihreä Vappu erikseen)
+      (+ Sari on saanut muutaman uuden jäsenen Vihreille täällä)
+      (! Ei tarvitse varata paikkaa vaan paikat valitaan saapumisjärjestyksessä poliittisille järjestöille varatulta seinustalta))
+   (! 1.5. Viherä vappu Veinin myllyllä
+      (! Voisiko Siruja Ato esittää tangon?))
+   (! 7.5. Martinlaakson lukion Eurovaalipäivä 9:15 - 13:15)
+   (! 10.5. Sotungin lukion eurovaalipäivä
+      (? Voivatko lukiolaiset olla lauantaina paikalla?))       
+   (! 17.5. Selossa ehdokaslava
+      (:ap :siru Siru on paikalla))
+   (! 17.5. Espoonlanden markkinat)
+   (! 18.5. Kartanon kevättapahtuma Kartanonkoskella 
+      (! Hanna Valtanen saattaa tietää lisää?
+         (:ap :sari Sari kysyy Hannalta)))
+   (! 12.4. Koivukylän kirjasto
+      (:ap :siru Siru paikalla)
+      (:ap :markku Markku paiakalla)
+      (:ap :lasse Lasse paikalla))
+   (! 13.4. Ylämalmin Markkinat Helsingissä
+      (:ap :siru Siru paikalla)
+      (:ap :lasse Lasse hakee Sirun))
+   (! 22.4. Tikkurilan aseman feissaus
+      (:ap :siru Siru paikalla)
+      (:ap :pirkko Pirkko paikalla))
+   (! 24.4. Kirkkonummen feissaus
+      (:ap :anna Anna kuskina)
+      (:ap :siru Siru paikalla)
+      (:ap :sari Sari paikalla, haku urheilupuiston Hesburgerilta))
+   (! 26.4. Espoon keskuksen suurmarkkinat
+      (! Tänne ei ehditä))
+   (! 26.4. Siru Hämeenlinnassa eurovaalitilaisuudessa)
+   (! 27.4. Lohjan feissaus
+      (:ap :lasse Lasse kuskina)
+      (:ap :siru Siru paikalla)
+      (:ap :sari Sari paikalla, Haku Heseltä 9:10))
+   (! 28.4. Sirulla kaupungin hallitus ja valtuusto)
+   (! 5.5. Keravan asema
+      (:ap :pirkko Pirkko kuskina)
+      (:ap :siru Siru paikalla, haku 6:10)
+      (:ap :sari Sari paikalla, haku Heseltä Energia-areenan läheltä 6:20))
+   (! 9.5. Hyvinkään asema
+      (:ap :eine Eine paikalla)
+      (:ap :paavo Paavo paikalla)
+      (:ap :siru Siru paikalla, haku 6:10)
+      (:ap :sari Sari paikalla, haku Heseltä Energia-areenan läheltä 6:20))
+   (! 6.5. Kouvukylän feissaus 15:30)
+   (! 10.5. Jokiuoman puisto
+      (! Ilmoitus Vantaan Sanomissa keskiviikkona
+         (:ap :jukka Jukka taittaa mainoksen jos ehdokkaita vain yksi)))
+   (! 13.5. Feissaus Helsingissä kontilla iltapäivällä
+      (:ap :sari Sari laittaa läisäinfoa))
+   (! 15.5. - 16.5. Siru Lahdessa valtuustoseminaarissa)
+   (! 16.5. Feissaus Myyrmäen asemalla 15:00 - 17:00
+      (! Kirjastolla ennakkoäänestys)
+      (:ap :pirkko Pirkko kuskina)
+      (:ap :sari Sari paikalla)
+      (:ap :markku Markku paiakalla)
+      (:ap :lasse Lasse paikalla))
+   (! 17.5. Pääkaupunkiseudun kierros
+      (! Siru Sellossa))
+   (! 24.5. Tapiolan maalaismarkkinat
+      (! Viimeinen päivä ennen äänestystä)
+      (! Siru ehkä mieluummin kotikulmilla))
+   (! 7.5. - 23.5. Uudenmaan siivoustalkoot)
+   (! Nummela sunnuntaina))
+
+(? Missä pitäisi feissata?
+   (! Jumbo
+      (- Ei saa feissata, vartiat vie pois)))
+
+(? Mitä pitäisi tehdä?
+   (! Siru haluaisi toteuttaa "leffajulisteen" Suvi Sievilän kanssa
+      (+ Tämä toimisi mainoksena teekkarikylässä)
+         (+ Otaniemi on suomen vihrein paikka))
+   (! Vantaan sanomissa pitää näkyä
+      (+ Vantaan sanomissa muut puolueet ovat esillä)
+      (+ Jukka voi taittaa esitteen)
+      (+ Poliittiset yhdistykset saavat alennusta ilmoituksista))
+   (! Siru voisi pitää tilaisuuksia)
+   (! Feissaus Kampissa ja Helsingin rautatieasemalla
+      (- Ihmiset varautuneempia kuin muualla koska kaupustelua on täällä paljon)
+      (+ Koko Suomi on vaalipiirinä, eli pitkän matkan junat ovat hyvä kohde feissaukselle))
+   (! Feisaus Vihreiden kojulla Helsingissä))
+
+(? Minne kukakin jakaa esitettä?
+   (! Markku jakaa Hämevaaraan)
+   (! Lasse jakaa Pähkinärinteeseen)
+   (! Anna jakaa Hämeenkylää)
+   (! Laura pitää kirjaa kuka jakaa minnekkin))
+
+(? Milloin esitettä pitäisi jakaa?
+   (! Ennakkoäänestyksen alussa tai juuri ennen sitä)
+   (! Vaalipäivällä aamuyöstä jaetut esitteet ovat olleet tehokkaita. Siru jakoi Satu Hassin ja Heidi Hautalan esitteitä Hämeenkylässä)
+   (! Pitää aloittaa riittävän ajoissa ettei tule kiire)
+   (! Vielä nyt ei kannata jakaa)
+   (! Johannes Hirvaskosken manos tuli jo postissa
+      (! Saattaa jakaa vielä uudestaan myöhemmin)))
+
+(? Minne pitäisi jakaa?
+   (! Markun luokse tulee vain Sirun ja Kimmo Kiljusen esitteet)
+   (! Kaivokselassa Lennu?)
+   (! Heikkilän Rauno Linnaisissa?))
+
+(? Kuka jakaa Viherä Vanaa -lehteä?
+   (! Markku jakaa 400))
+
+(? Milloin jaetaan sirun esitettä?
+   (! Siru jakoi jo markkinoilla useita satoja))
+
+(? Milloin seuraava kokous?
+   (! 27.4. kello 17:00
+      (! Lohja 10-12))))
